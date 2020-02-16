@@ -196,7 +196,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x2ce0
+.text           0x00000000     0x2cac
  *(.vectors)
  .vectors       0x00000000       0x54 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vectors
@@ -492,248 +492,248 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .text.EF_void_UART_Init
                 0x00000e76       0xaa ./MCAL/EF_UART.o
                 0x00000e76                EF_void_UART_Init
- .text.EF_Void_BLUETOOTH_ReadArray_untill_Searchkey
-                0x00000f20       0x50 ./HAL/Bluetooth.o
-                0x00000f20                EF_Void_BLUETOOTH_ReadArray_untill_Searchkey
+ .text.EF_Void_BLUETOOTH_ReadArray_untill_NewLine
+                0x00000f20       0x30 ./HAL/Bluetooth.o
+                0x00000f20                EF_Void_BLUETOOTH_ReadArray_untill_NewLine
  .text.EF_Void_BLUETOOTH_ReadArray
-                0x00000f70       0x20 ./HAL/Bluetooth.o
-                0x00000f70                EF_Void_BLUETOOTH_ReadArray
+                0x00000f50       0x20 ./HAL/Bluetooth.o
+                0x00000f50                EF_Void_BLUETOOTH_ReadArray
  .text.EF_void_Get_char
-                0x00000f90        0x6 ./HAL/Bluetooth.o
-                0x00000f90                EF_void_Get_char
+                0x00000f70        0x6 ./HAL/Bluetooth.o
+                0x00000f70                EF_void_Get_char
  .text.EF_void_Send_char
-                0x00000f96        0x6 ./HAL/Bluetooth.o
-                0x00000f96                EF_void_Send_char
+                0x00000f76        0x6 ./HAL/Bluetooth.o
+                0x00000f76                EF_void_Send_char
  .text.EF_Void_BLUETOOTH_Send_String
-                0x00000f9c       0x3c ./HAL/Bluetooth.o
-                0x00000f9c                EF_Void_BLUETOOTH_Send_String
+                0x00000f7c       0x3c ./HAL/Bluetooth.o
+                0x00000f7c                EF_Void_BLUETOOTH_Send_String
  .text.EF_Void_BLUETOOTH_WriteArray
-                0x00000fd8       0x36 ./HAL/Bluetooth.o
-                0x00000fd8                EF_Void_BLUETOOTH_WriteArray
+                0x00000fb8       0x36 ./HAL/Bluetooth.o
+                0x00000fb8                EF_Void_BLUETOOTH_WriteArray
  .text.EF_void_BLUETOOTH_Init
-                0x0000100e       0x40 ./HAL/Bluetooth.o
-                0x0000100e                EF_void_BLUETOOTH_Init
+                0x00000fee       0x40 ./HAL/Bluetooth.o
+                0x00000fee                EF_void_BLUETOOTH_Init
  .text.EF_7SegmentWriteData
-                0x0000104e        0xa ./HAL/EF_7Segment.o
-                0x0000104e                EF_7SegmentWriteData
+                0x0000102e        0xa ./HAL/EF_7Segment.o
+                0x0000102e                EF_7SegmentWriteData
  .text.EF_void_Segment_Display
-                0x00001058      0x136 ./HAL/EF_7Segment.o
-                0x00001058                EF_void_Segment_Display
+                0x00001038      0x136 ./HAL/EF_7Segment.o
+                0x00001038                EF_void_Segment_Display
  .text.EF_void_Segment_Init
-                0x0000118e       0x52 ./HAL/EF_7Segment.o
-                0x0000118e                EF_void_Segment_Init
+                0x0000116e       0x52 ./HAL/EF_7Segment.o
+                0x0000116e                EF_void_Segment_Init
  .text.DecToBcdConvert
-                0x000011e0       0x14 ./HAL/EF_DS1307.o
+                0x000011c0       0x14 ./HAL/EF_DS1307.o
  .text.LCD_update_time
-                0x000011f4       0xe4 ./HAL/EF_DS1307.o
-                0x000011f4                LCD_update_time
+                0x000011d4       0xe4 ./HAL/EF_DS1307.o
+                0x000011d4                LCD_update_time
  .text.EF_void_DS1307_SetDate
-                0x000012d8       0x52 ./HAL/EF_DS1307.o
-                0x000012d8                EF_void_DS1307_SetDate
+                0x000012b8       0x52 ./HAL/EF_DS1307.o
+                0x000012b8                EF_void_DS1307_SetDate
  .text.EF_void_DS1307_SetTime
-                0x0000132a       0x52 ./HAL/EF_DS1307.o
-                0x0000132a                EF_void_DS1307_SetTime
+                0x0000130a       0x52 ./HAL/EF_DS1307.o
+                0x0000130a                EF_void_DS1307_SetTime
  .text.EF_void_DS1307_GetDate
-                0x0000137c       0x9a ./HAL/EF_DS1307.o
-                0x0000137c                EF_void_DS1307_GetDate
+                0x0000135c       0x9a ./HAL/EF_DS1307.o
+                0x0000135c                EF_void_DS1307_GetDate
  .text.EF_void_DS1307_GetTime
-                0x00001416       0x9a ./HAL/EF_DS1307.o
-                0x00001416                EF_void_DS1307_GetTime
+                0x000013f6       0x9a ./HAL/EF_DS1307.o
+                0x000013f6                EF_void_DS1307_GetTime
  .text.EF_void_DS1307_Init
-                0x000014b0       0x28 ./HAL/EF_DS1307.o
-                0x000014b0                EF_void_DS1307_Init
+                0x00001490       0x28 ./HAL/EF_DS1307.o
+                0x00001490                EF_void_DS1307_Init
  .text.EF_void_EEPROM24C16_Read_Byte
-                0x000014d8       0x38 ./HAL/EF_E2PROM_24C16.o
-                0x000014d8                EF_void_EEPROM24C16_Read_Byte
+                0x000014b8       0x38 ./HAL/EF_E2PROM_24C16.o
+                0x000014b8                EF_void_EEPROM24C16_Read_Byte
  .text.EF_void_EEPROM24C16_Write_Byte
-                0x00001510       0x36 ./HAL/EF_E2PROM_24C16.o
-                0x00001510                EF_void_EEPROM24C16_Write_Byte
+                0x000014f0       0x36 ./HAL/EF_E2PROM_24C16.o
+                0x000014f0                EF_void_EEPROM24C16_Write_Byte
  .text.EF_void_EEPROM24C16_Init
-                0x00001546        0x6 ./HAL/EF_E2PROM_24C16.o
-                0x00001546                EF_void_EEPROM24C16_Init
+                0x00001526        0x6 ./HAL/EF_E2PROM_24C16.o
+                0x00001526                EF_void_EEPROM24C16_Init
  .text.EF_u8_EEPROM24C64_Read_Byte
-                0x0000154c       0x6c ./HAL/EF_E2PROM_24C64.o
-                0x0000154c                EF_u8_EEPROM24C64_Read_Byte
+                0x0000152c       0x6c ./HAL/EF_E2PROM_24C64.o
+                0x0000152c                EF_u8_EEPROM24C64_Read_Byte
  .text.EF_u8_EEPROM24C64_Write_Byte
-                0x000015b8       0x60 ./HAL/EF_E2PROM_24C64.o
-                0x000015b8                EF_u8_EEPROM24C64_Write_Byte
+                0x00001598       0x60 ./HAL/EF_E2PROM_24C64.o
+                0x00001598                EF_u8_EEPROM24C64_Write_Byte
  .text.EF_void_EEPROM24C64_Init
-                0x00001618        0x6 ./HAL/EF_E2PROM_24C64.o
-                0x00001618                EF_void_EEPROM24C64_Init
+                0x000015f8        0x6 ./HAL/EF_E2PROM_24C64.o
+                0x000015f8                EF_void_EEPROM24C64_Init
  .text.EF_Green_Kit_KeyPad_test
-                0x0000161e       0x9e ./HAL/EF_Green_hit_Test.o
-                0x0000161e                EF_Green_Kit_KeyPad_test
+                0x000015fe       0x9e ./HAL/EF_Green_hit_Test.o
+                0x000015fe                EF_Green_Kit_KeyPad_test
  .text.EF_Green_Kit_ADC_Test
-                0x000016bc       0xaa ./HAL/EF_Green_hit_Test.o
-                0x000016bc                EF_Green_Kit_ADC_Test
+                0x0000169c       0xaa ./HAL/EF_Green_hit_Test.o
+                0x0000169c                EF_Green_Kit_ADC_Test
  .text.EF_Green_Kit_7Seg_Test
-                0x00001766       0x96 ./HAL/EF_Green_hit_Test.o
-                0x00001766                EF_Green_Kit_7Seg_Test
+                0x00001746       0x96 ./HAL/EF_Green_hit_Test.o
+                0x00001746                EF_Green_Kit_7Seg_Test
  .text.EF_Green_Kit_Buzzer_test
-                0x000017fc       0x86 ./HAL/EF_Green_hit_Test.o
-                0x000017fc                EF_Green_Kit_Buzzer_test
+                0x000017dc       0x86 ./HAL/EF_Green_hit_Test.o
+                0x000017dc                EF_Green_Kit_Buzzer_test
  .text.EF_Green_Kit_Leds_Relay_test
-                0x00001882      0x1f2 ./HAL/EF_Green_hit_Test.o
-                0x00001882                EF_Green_Kit_Leds_Relay_test
+                0x00001862      0x1f2 ./HAL/EF_Green_hit_Test.o
+                0x00001862                EF_Green_Kit_Leds_Relay_test
  .text.EF_KIT_Inti
-                0x00001a74       0x84 ./HAL/EF_Green_hit_Test.o
-                0x00001a74                EF_KIT_Inti
+                0x00001a54       0x84 ./HAL/EF_Green_hit_Test.o
+                0x00001a54                EF_KIT_Inti
  .text.EF_Timr0_Inter_Setup
-                0x00001af8       0x14 ./HAL/EF_Health_Care.o
-                0x00001af8                EF_Timr0_Inter_Setup
+                0x00001ad8       0x14 ./HAL/EF_Health_Care.o
+                0x00001ad8                EF_Timr0_Inter_Setup
  .text.EF_Health_Care_Heart_Pulse_Read
-                0x00001b0c      0x3d8 ./HAL/EF_Health_Care.o
-                0x00001b0c                EF_Health_Care_Heart_Pulse_Read
+                0x00001aec      0x3d8 ./HAL/EF_Health_Care.o
+                0x00001aec                EF_Health_Care_Heart_Pulse_Read
  .text.EF_Health_Care_Temp_Read
-                0x00001ee4      0x18e ./HAL/EF_Health_Care.o
-                0x00001ee4                EF_Health_Care_Temp_Read
+                0x00001ec4      0x18e ./HAL/EF_Health_Care.o
+                0x00001ec4                EF_Health_Care_Temp_Read
  .text.__vector_11
-                0x00002072       0xae ./HAL/EF_Health_Care.o
-                0x00002072                __vector_11
+                0x00002052       0xae ./HAL/EF_Health_Care.o
+                0x00002052                __vector_11
  .text.EF_Health_Care_system_int
-                0x00002120        0x6 ./HAL/EF_Health_Care.o
-                0x00002120                EF_Health_Care_system_int
+                0x00002100        0x6 ./HAL/EF_Health_Care.o
+                0x00002100                EF_Health_Care_system_int
  .text.EF_u8_KeyPad_Scan
-                0x00002126       0xe0 ./HAL/EF_Keypad.o
-                0x00002126                EF_u8_KeyPad_Scan
+                0x00002106       0xe0 ./HAL/EF_Keypad.o
+                0x00002106                EF_u8_KeyPad_Scan
  .text.EF_void_KeyPad_Init
-                0x00002206       0x56 ./HAL/EF_Keypad.o
-                0x00002206                EF_void_KeyPad_Init
+                0x000021e6       0x56 ./HAL/EF_Keypad.o
+                0x000021e6                EF_void_KeyPad_Init
  .text.EF_void_LCD_send_command
-                0x0000225c       0x50 ./HAL/EF_LCD.o
-                0x0000225c                EF_void_LCD_send_command
+                0x0000223c       0x50 ./HAL/EF_LCD.o
+                0x0000223c                EF_void_LCD_send_command
  .text.EF_void_LCD_send_data
-                0x000022ac       0x50 ./HAL/EF_LCD.o
-                0x000022ac                EF_void_LCD_send_data
+                0x0000228c       0x50 ./HAL/EF_LCD.o
+                0x0000228c                EF_void_LCD_send_data
  .text.EF_void_LCD_goto
-                0x000022fc       0x42 ./HAL/EF_LCD.o
-                0x000022fc                EF_void_LCD_goto
+                0x000022dc       0x42 ./HAL/EF_LCD.o
+                0x000022dc                EF_void_LCD_goto
  .text.EF_void_LCD_print
-                0x0000233e       0x26 ./HAL/EF_LCD.o
-                0x0000233e                EF_void_LCD_print
+                0x0000231e       0x26 ./HAL/EF_LCD.o
+                0x0000231e                EF_void_LCD_print
  .text.EF_void_LCD_print_ByLength
-                0x00002364       0x26 ./HAL/EF_LCD.o
-                0x00002364                EF_void_LCD_print_ByLength
+                0x00002344       0x26 ./HAL/EF_LCD.o
+                0x00002344                EF_void_LCD_print_ByLength
  .text.EF_void_LCD_Clear_Screen
-                0x0000238a       0x16 ./HAL/EF_LCD.o
-                0x0000238a                EF_void_LCD_Clear_Screen
+                0x0000236a       0x16 ./HAL/EF_LCD.o
+                0x0000236a                EF_void_LCD_Clear_Screen
  .text.EF_void_uploadCustomChar
-                0x000023a0       0x3c ./HAL/EF_LCD.o
-                0x000023a0                EF_void_uploadCustomChar
+                0x00002380       0x3c ./HAL/EF_LCD.o
+                0x00002380                EF_void_uploadCustomChar
  .text.EF_void_LCD_HextoASCII
-                0x000023dc       0x32 ./HAL/EF_LCD.o
-                0x000023dc                EF_void_LCD_HextoASCII
+                0x000023bc       0x32 ./HAL/EF_LCD.o
+                0x000023bc                EF_void_LCD_HextoASCII
  .text.LCD_4BIT_Write_Init
-                0x0000240e       0x18 ./HAL/EF_LCD.o
-                0x0000240e                LCD_4BIT_Write_Init
+                0x000023ee       0x18 ./HAL/EF_LCD.o
+                0x000023ee                LCD_4BIT_Write_Init
  .text.EF_void_LCD_init
-                0x00002426       0x72 ./HAL/EF_LCD.o
-                0x00002426                EF_void_LCD_init
+                0x00002406       0x72 ./HAL/EF_LCD.o
+                0x00002406                EF_void_LCD_init
  .text.EF_void_LCD_Newline
-                0x00002498       0x10 ./HAL/EF_LCD.o
-                0x00002498                EF_void_LCD_Newline
+                0x00002478       0x10 ./HAL/EF_LCD.o
+                0x00002478                EF_void_LCD_Newline
  .text.EF_void_LCD_print_Number
-                0x000024a8       0x74 ./HAL/EF_LCD.o
-                0x000024a8                EF_void_LCD_print_Number
+                0x00002488       0x74 ./HAL/EF_LCD.o
+                0x00002488                EF_void_LCD_print_Number
  .text.EF_void_LCD_print_NUM
-                0x0000251c       0x90 ./HAL/EF_LCD.o
-                0x0000251c                EF_void_LCD_print_NUM
- .text.main     0x000025ac       0xfe ./main.o
-                0x000025ac                main
+                0x000024fc       0x90 ./HAL/EF_LCD.o
+                0x000024fc                EF_void_LCD_print_NUM
+ .text.main     0x0000258c       0xea ./main.o
+                0x0000258c                main
  .text.avr-libc.fplib
-                0x000026aa        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x000026aa                __subsf3
-                0x000026ac                __addsf3
+                0x00002676        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00002676                __subsf3
+                0x00002678                __addsf3
  .text.avr-libc.fplib
-                0x000026b4       0xc0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x000026ce                __addsf3x
+                0x00002680       0xc0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x0000269a                __addsf3x
  .text.avr-libc.fplib
-                0x00002774        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x00002774                __divsf3
+                0x00002740        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00002740                __divsf3
  .text.avr-libc.fplib
-                0x00002778       0xcc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x0000278e                __divsf3x
-                0x00002792                __divsf3_pse
+                0x00002744       0xcc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x0000275a                __divsf3x
+                0x0000275e                __divsf3_pse
  .text.avr-libc.fplib
-                0x00002844       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x00002844                __fixunssfsi
+                0x00002810       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00002810                __fixunssfsi
  .text.avr-libc.fplib
-                0x0000289c       0x7a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x000028a0                __floatsisf
-                0x0000289c                __floatunsisf
+                0x00002868       0x7a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x0000286c                __floatsisf
+                0x00002868                __floatunsisf
  .text.avr-libc.fplib
-                0x00002916        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x00002916                __fp_inf
+                0x000028e2        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x000028e2                __fp_inf
  .text.avr-libc.fplib
-                0x00002922        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x00002922                __fp_nan
+                0x000028ee        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x000028ee                __fp_nan
  .text.avr-libc.fplib
-                0x00002928        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x00002928                __fp_pscA
+                0x000028f4        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x000028f4                __fp_pscA
  .text.avr-libc.fplib
-                0x00002936        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x00002936                __fp_pscB
+                0x00002902        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00002902                __fp_pscB
  .text.avr-libc.fplib
-                0x00002944       0x22 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x00002944                __fp_round
+                0x00002910       0x22 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00002910                __fp_round
  .text.avr-libc.fplib
-                0x00002966       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x00002966                __fp_split3
-                0x00002976                __fp_splitA
+                0x00002932       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00002932                __fp_split3
+                0x00002942                __fp_splitA
  .text.avr-libc.fplib
-                0x000029aa        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x000029aa                __fp_zero
-                0x000029ac                __fp_szero
+                0x00002976        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00002976                __fp_zero
+                0x00002978                __fp_szero
  .text.avr-libc.fplib
-                0x000029b8        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                0x000029b8                __gtsf2
-                0x000029b8                __gesf2
+                0x00002984        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x00002984                __gtsf2
+                0x00002984                __gesf2
  .text.avr-libc.fplib
-                0x000029c0       0x8a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(log.o)
-                0x000029ca                log
+                0x0000298c       0x8a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(log.o)
+                0x00002996                log
  .text.avr-libc.fplib
-                0x00002a4a        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00002a4a                __mulsf3
+                0x00002a16        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00002a16                __mulsf3
  .text.avr-libc.fplib
-                0x00002a4e       0xc2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x00002a66                __mulsf3_pse
-                0x00002a62                __mulsf3x
+                0x00002a1a       0xc2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00002a32                __mulsf3_pse
+                0x00002a2e                __mulsf3x
  .text.avr-libc.fplib
-                0x00002b10       0x48 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
-                0x00002b10                __fp_cmp
+                0x00002adc       0x48 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00002adc                __fp_cmp
  .text.avr-libc.fplib
-                0x00002b58       0x1c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
-                0x00002b5c                __fp_mpack_finite
-                0x00002b58                __fp_mpack
+                0x00002b24       0x1c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+                0x00002b28                __fp_mpack_finite
+                0x00002b24                __fp_mpack
  .text.avr-libc.fplib
-                0x00002b74       0x4a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_powser.o)
-                0x00002b74                __fp_powser
- .text.libgcc   0x00002bbe       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
-                0x00002bbe                __udivmodqi4
- .text.libgcc   0x00002bd6       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
-                0x00002bd6                __udivmodhi4
- .text.libgcc   0x00002bfe       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
-                0x00002bfe                __divmodhi4
-                0x00002bfe                _div
- .text.libgcc   0x00002c24       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x00002c24                __udivmodsi4
- .text.libgcc   0x00002c68        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00002c68        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00002c68        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00002b40       0x4a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+                0x00002b40                __fp_powser
+ .text.libgcc   0x00002b8a       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x00002b8a                __udivmodqi4
+ .text.libgcc   0x00002ba2       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002ba2                __udivmodhi4
+ .text.libgcc   0x00002bca       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x00002bca                __divmodhi4
+                0x00002bca                _div
+ .text.libgcc   0x00002bf0       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00002bf0                __udivmodsi4
+ .text.libgcc   0x00002c34        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00002c34        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002c34        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
  .text.avr-libc
-                0x00002c68       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
-                0x00002c68                strcmp
+                0x00002c34       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                0x00002c34                strcmp
  .text.avr-libc
-                0x00002c7a       0x42 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
-                0x00002c7a                itoa
+                0x00002c46       0x42 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x00002c46                itoa
  .text.avr-libc
-                0x00002cbc       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
-                0x00002cbc                strrev
-                0x00002cdc                . = ALIGN (0x2)
+                0x00002c88       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00002c88                strrev
+                0x00002ca8                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00002cdc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x00002cdc                exit
-                0x00002cdc                _exit
+ .fini9         0x00002ca8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00002ca8                exit
+                0x00002ca8                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -752,11 +752,11 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00002cdc        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x00002ca8        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00002ce0                _etext = .
+                0x00002cac                _etext = .
 
-.data           0x00800060      0x1fe load address 0x00002ce0
+.data           0x00800060      0x202 load address 0x00002cac
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
@@ -779,168 +779,169 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .data          0x008001d0        0x0 ./HAL/EF_Health_Care.o
  .data          0x008001d0        0x0 ./HAL/EF_Keypad.o
  .data          0x008001d0        0x0 ./HAL/EF_LCD.o
- .data          0x008001d0       0x2d ./main.o
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(log.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_powser.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
- .data          0x008001fd        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x008001d0       0x30 ./main.o
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(log.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
  *(.data*)
  .data.Uart_Paraters
-                0x008001fd        0xb ./HAL/EF_Green_hit_Test.o
-                0x008001fd                Uart_Paraters
+                0x00800200        0xb ./HAL/EF_Green_hit_Test.o
+                0x00800200                Uart_Paraters
  .data.Data_lcd
-                0x00800208       0x28 ./HAL/EF_Green_hit_Test.o
-                0x00800208                Data_lcd
- .data.P        0x00800230        0x2 ./HAL/EF_Health_Care.o
-                0x00800230                P
- .data.T        0x00800232        0x2 ./HAL/EF_Health_Care.o
-                0x00800232                T
- .data.thresh   0x00800234        0x2 ./HAL/EF_Health_Care.o
-                0x00800234                thresh
- .data.amp      0x00800236        0x2 ./HAL/EF_Health_Care.o
-                0x00800236                amp
+                0x0080020b       0x28 ./HAL/EF_Green_hit_Test.o
+                0x0080020b                Data_lcd
+ .data.P        0x00800233        0x2 ./HAL/EF_Health_Care.o
+                0x00800233                P
+ .data.T        0x00800235        0x2 ./HAL/EF_Health_Care.o
+                0x00800235                T
+ .data.thresh   0x00800237        0x2 ./HAL/EF_Health_Care.o
+                0x00800237                thresh
+ .data.amp      0x00800239        0x2 ./HAL/EF_Health_Care.o
+                0x00800239                amp
  .data.firstBeat
-                0x00800238        0x1 ./HAL/EF_Health_Care.o
-                0x00800238                firstBeat
+                0x0080023b        0x1 ./HAL/EF_Health_Care.o
+                0x0080023b                firstBeat
  .data.secondBeat
-                0x00800239        0x1 ./HAL/EF_Health_Care.o
-                0x00800239                secondBeat
- .data.IBI      0x0080023a        0x2 ./HAL/EF_Health_Care.o
-                0x0080023a                IBI
+                0x0080023c        0x1 ./HAL/EF_Health_Care.o
+                0x0080023c                secondBeat
+ .data.IBI      0x0080023d        0x2 ./HAL/EF_Health_Care.o
+                0x0080023d                IBI
  .data.Uart_Paramters
-                0x0080023c        0xb ./HAL/EF_Health_Care.o
-                0x0080023c                Uart_Paramters
+                0x0080023f        0xb ./HAL/EF_Health_Care.o
+                0x0080023f                Uart_Paramters
  *(.rodata)
  *(.rodata*)
  .rodata.uart_reg
-                0x00800247        0xc ./MCAL/EF_UART.o
-                0x00800247                uart_reg
- .rodata.C.0.1344
-                0x00800253        0xb ./HAL/Bluetooth.o
+                0x0080024a        0xc ./MCAL/EF_UART.o
+                0x0080024a                uart_reg
+ .rodata.C.0.1343
+                0x00800256        0xb ./HAL/Bluetooth.o
  *(.gnu.linkonce.d*)
-                0x0080025e                . = ALIGN (0x2)
-                0x0080025e                _edata = .
-                0x0080025e                PROVIDE (__data_end, .)
+                0x00800262                . = ALIGN (0x2)
+ *fill*         0x00800261        0x1 00
+                0x00800262                _edata = .
+                0x00800262                PROVIDE (__data_end, .)
 
-.bss            0x0080025e       0x6a
-                0x0080025e                PROVIDE (__bss_start, .)
+.bss            0x00800262       0x6a
+                0x00800262                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
- .bss           0x0080025e        0x0 ./MCAL/EF_ADC.o
- .bss           0x0080025e        0x0 ./MCAL/EF_DIO.o
- .bss           0x0080025e        0x0 ./MCAL/EF_EEPROM.o
- .bss           0x0080025e        0x0 ./MCAL/EF_I2C.o
- .bss           0x0080025e        0x0 ./MCAL/EF_InputCapture.o
- .bss           0x0080025e        0x0 ./MCAL/EF_PWM.o
- .bss           0x0080025e        0x0 ./MCAL/EF_SPI.o
- .bss           0x0080025e        0x0 ./MCAL/EF_SpechialTIMER.o
- .bss           0x0080025e        0x0 ./MCAL/EF_Timer.o
- .bss           0x0080025e        0x0 ./MCAL/EF_UART.o
- .bss           0x0080025e        0x0 ./HAL/Bluetooth.o
- .bss           0x0080025e        0x0 ./HAL/EF_7Segment.o
- .bss           0x0080025e        0x0 ./HAL/EF_DS1307.o
- .bss           0x0080025e        0x0 ./HAL/EF_E2PROM_24C16.o
- .bss           0x0080025e        0x0 ./HAL/EF_E2PROM_24C64.o
- .bss           0x0080025e        0x0 ./HAL/EF_Green_hit_Test.o
- .bss           0x0080025e        0x0 ./HAL/EF_Health_Care.o
- .bss           0x0080025e        0x0 ./HAL/EF_Keypad.o
- .bss           0x0080025e        0x0 ./HAL/EF_LCD.o
- .bss           0x0080025e        0x0 ./main.o
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(log.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_powser.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
- .bss           0x0080025e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800262        0x0 ./MCAL/EF_ADC.o
+ .bss           0x00800262        0x0 ./MCAL/EF_DIO.o
+ .bss           0x00800262        0x0 ./MCAL/EF_EEPROM.o
+ .bss           0x00800262        0x0 ./MCAL/EF_I2C.o
+ .bss           0x00800262        0x0 ./MCAL/EF_InputCapture.o
+ .bss           0x00800262        0x0 ./MCAL/EF_PWM.o
+ .bss           0x00800262        0x0 ./MCAL/EF_SPI.o
+ .bss           0x00800262        0x0 ./MCAL/EF_SpechialTIMER.o
+ .bss           0x00800262        0x0 ./MCAL/EF_Timer.o
+ .bss           0x00800262        0x0 ./MCAL/EF_UART.o
+ .bss           0x00800262        0x0 ./HAL/Bluetooth.o
+ .bss           0x00800262        0x0 ./HAL/EF_7Segment.o
+ .bss           0x00800262        0x0 ./HAL/EF_DS1307.o
+ .bss           0x00800262        0x0 ./HAL/EF_E2PROM_24C16.o
+ .bss           0x00800262        0x0 ./HAL/EF_E2PROM_24C64.o
+ .bss           0x00800262        0x0 ./HAL/EF_Green_hit_Test.o
+ .bss           0x00800262        0x0 ./HAL/EF_Health_Care.o
+ .bss           0x00800262        0x0 ./HAL/EF_Keypad.o
+ .bss           0x00800262        0x0 ./HAL/EF_LCD.o
+ .bss           0x00800262        0x0 ./main.o
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(log.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00800262        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
  *(.bss*)
  .bss.timers_list
-                0x0080025e       0x3c ./MCAL/EF_SpechialTIMER.o
+                0x00800262       0x3c ./MCAL/EF_SpechialTIMER.o
  .bss.voidFuncPtr
-                0x0080029a        0x2 ./MCAL/EF_Timer.o
+                0x0080029e        0x2 ./MCAL/EF_Timer.o
  .bss.sampleCounter
-                0x0080029c        0x4 ./HAL/EF_Health_Care.o
-                0x0080029c                sampleCounter
- .bss.lastBeatTime
                 0x008002a0        0x4 ./HAL/EF_Health_Care.o
-                0x008002a0                lastBeatTime
- .bss.Signal    0x008002a4        0x2 ./HAL/EF_Health_Care.o
-                0x008002a4                Signal
- .bss.Pulse     0x008002a6        0x1 ./HAL/EF_Health_Care.o
-                0x008002a6                Pulse
- .bss.QS        0x008002a7        0x1 ./HAL/EF_Health_Care.o
-                0x008002a7                QS
+                0x008002a0                sampleCounter
+ .bss.lastBeatTime
+                0x008002a4        0x4 ./HAL/EF_Health_Care.o
+                0x008002a4                lastBeatTime
+ .bss.Signal    0x008002a8        0x2 ./HAL/EF_Health_Care.o
+                0x008002a8                Signal
+ .bss.Pulse     0x008002aa        0x1 ./HAL/EF_Health_Care.o
+                0x008002aa                Pulse
+ .bss.QS        0x008002ab        0x1 ./HAL/EF_Health_Care.o
+                0x008002ab                QS
  .bss.runningTotal
-                0x008002a8        0x4 ./HAL/EF_Health_Care.o
-                0x008002a8                runningTotal
- .bss.N         0x008002ac        0x2 ./HAL/EF_Health_Care.o
-                0x008002ac                N
+                0x008002ac        0x4 ./HAL/EF_Health_Care.o
+                0x008002ac                runningTotal
+ .bss.N         0x008002b0        0x2 ./HAL/EF_Health_Care.o
+                0x008002b0                N
  .bss.Temprature
-                0x008002ae        0x4 ./HAL/EF_Health_Care.o
-                0x008002ae                Temprature
+                0x008002b2        0x4 ./HAL/EF_Health_Care.o
+                0x008002b2                Temprature
  *(COMMON)
- COMMON         0x008002b2       0x16 ./HAL/EF_Health_Care.o
-                0x008002b2                rate
-                0x008002c6                BPM
-                0x008002c8                PROVIDE (__bss_end, .)
-                0x00002ce0                __data_load_start = LOADADDR (.data)
-                0x00002ede                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008002b6       0x16 ./HAL/EF_Health_Care.o
+                0x008002b6                rate
+                0x008002ca                BPM
+                0x008002cc                PROVIDE (__bss_end, .)
+                0x00002cac                __data_load_start = LOADADDR (.data)
+                0x00002eae                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008002c8        0x0
-                0x008002c8                PROVIDE (__noinit_start, .)
+.noinit         0x008002cc        0x0
+                0x008002cc                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008002c8                PROVIDE (__noinit_end, .)
-                0x008002c8                _end = .
-                0x008002c8                PROVIDE (__heap_start, .)
+                0x008002cc                PROVIDE (__noinit_end, .)
+                0x008002cc                _end = .
+                0x008002cc                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)

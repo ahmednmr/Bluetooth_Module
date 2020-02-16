@@ -23,7 +23,7 @@ char EF_void_Get_char(void);
 void EF_Void_BLUETOOTH_WriteArray(char *BUFFER ,char Len);
 void EF_Void_BLUETOOTH_ReadArray(char *BUFFER , char Len);
 void EF_Void_BLUETOOTH_Send_String(char *BUFFER);
-void EF_Void_BLUETOOTH_ReadArray_untill_Searchkey(char *BUFFER , char Len,char *Searchkey);
+void EF_Void_BLUETOOTH_ReadArray_untill_NewLine(char *BUFFER , char Len);
 
 
 #endif /* BLUETOOTH_H_ */
